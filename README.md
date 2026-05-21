@@ -6,13 +6,13 @@
 ```
 onpj_final_project/
 │
-├── 1k_stories_100_genre.csv          # Датасет — 1000 раскази, 100 жанрови
+├── 1k_stories_100_genre.csv          # Датасет - 1000 раскази, 100 жанрови
 │
 ├── few_shot_genre_classification.ipynb  # Few-shot со HuggingFace 
-├── flant5_model.ipynb                   # FLAN-T5 класификација
+├── flant5_model.ipynb                   # FLAN-T5 модел
 ├── gpt_model.ipynb                      # GPT-базиран пристап
-├── mistral_model.ipynb                  # Mistral класификација
-├── t5gemma_model.ipynb                  # T5/Gemma класификација
+├── mistral_model.ipynb                  # Mistral модел
+├── t5gemma_model.ipynb                  # T5/Gemma модел
 ├── graphics.ipynb                        # Визуализации и споредба на резултати
 │
 └── README.md
@@ -27,7 +27,7 @@ onpj_final_project/
 | Извор | [NLP 1K Stories Dataset – 100 Genres](https://github.com/FareedKhan-dev/NLP-1K-Stories-Dataset-Genres-100) |
 | Вкупно раскази | 1 000 |
 | Вкупно жанрови | 100 |
-| Жанрови во фокус | 15 најзастапени |
+| Жанрови во фокус при few_shot_genre_classification | 15 најзастапени |
 | Формат | CSV (`title`, `story`, `genre`) |
 
 ### Топ 15 жанрови
